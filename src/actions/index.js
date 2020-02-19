@@ -1,4 +1,5 @@
-const selectSong = song => {
+//action creator, call this to updata the data
+export const selectSong = song => {
   return {
     type: "SONG_SELECTED",
     payload: song
